@@ -1,4 +1,7 @@
-
+html{
+    max-height: fit-content;
+    overflow-y: auto;
+}
 body{
     background-color: black;
     margin: 0;

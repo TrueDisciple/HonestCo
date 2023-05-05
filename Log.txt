@@ -1,0 +1,5 @@
+MAY 05 2023
+
+- Finished a lot of the base html and CSS for the page. 
+- There were Issues with following the tutorial but overall I learned about the power of css and the mental awareness that comes with it.
+    Mainly : z-layer: (Imagine layers in krita), :hover (Make the site appear dynamic), :active (same idea)

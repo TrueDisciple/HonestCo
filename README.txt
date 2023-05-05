@@ -30,8 +30,10 @@ I will have an initial draft of a page made before the 4th of JULY
 
 Progress (BackLog(BG), Assigned(A), In Progress(P), Completed(C)) / TODO:
 
-(BL)    -   Make a krita draft of front page
-(BL)    -   Order a raspberry pi
+(C)    -   Make a krita draft of front page
+(P)    -   Order a raspberry pi
+(P)    -   Work on the rough draft of the web page
+(BL)    -   Revise the creation of the art
 (BL)    -   Create the story behind HonestCO
 (BL)    -   Learn to use react
 (BL)    -   

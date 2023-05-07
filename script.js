@@ -15,6 +15,7 @@ window.addEventListener('scroll', function(){
         gradi.style.top = (value) * 0.1 + 'px';
         trees.style.top = (value) * 0.6 + 'px';
         clouds.style.top = (value) * 0.8 + 'px';
+        clouds.style.left = (value) * 0.05 + 'px';
         logo.style.top = (value) * 1 + 'px';
     }
 })

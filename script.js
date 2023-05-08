@@ -9,8 +9,8 @@ let frontTrees = document.getElementById('frontTrees');
 window.addEventListener('scroll', function(){
     let value = window.scrollY;
     if (value < 900){
-        stars.style.left = (value) * 0.25 + 'px';
-        moon.style.left = (value) * .2 + 'px';
+        stars.style.left = (value) * 0.1 + 'px';
+        moon.style.left = (value) * .3 + 'px';
         moon.style.top = (value) * 1 + 'px';
         gradi.style.top = (value) * 0.1 + 'px';
         trees.style.top = (value) * 0.6 + 'px';

@@ -57,7 +57,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: -100px;
+
 }
 section img{
     position: absolute;
@@ -67,17 +67,25 @@ section img{
     height: 100%;
     object-fit: cover;
 }
-section img#clouds{
-    margin-top: 150px;
-}
 section img#frontTrees{
     z-index: 12;
+}
+section img#clouds{
+    width: 150%;
+    margin-left: -50px;
+}
+section img#moon{
+    scale: 10%;
+    margin-top: -500px;
+    margin-left: -300px;
 }
 section img#logo{
     scale: 60%;
     z-index: 0;
     margin-top: -100px;
 }
+
+
 section::before{
     content: '';
     position: absolute;

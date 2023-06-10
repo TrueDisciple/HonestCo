@@ -134,3 +134,7 @@ h2{
 
 /*------------------------------------------Below is for grids of information--------------------------------------------------------*/
 
+.split{
+    display: grid;
+    grid-template-columns: 50%;
+}

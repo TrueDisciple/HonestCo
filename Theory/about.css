@@ -1,5 +1,9 @@
 body{
     background-color: black;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    height: 100%;
 }
 
 header{
@@ -47,4 +51,18 @@ header ul a.active{
     background-size: cover;
     height: 5vh;
     margin: 0px;
+}
+.mainPage{
+    margin-top: 5vh;
+    background-image: url("PNGS/Wheat-.jpg");
+    background-size: cover;
+    height: 95vh;
+}
+.contentPage{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5vh;
+    height: 100%;
+    background: linear-gradient(.25turn, rgba(255,255,255,0), aliceblue 50px,aliceblue 94%, rgba(255,255,255,0));
+
 }

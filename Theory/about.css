@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    font-size: 2em;
+    color: aliceblue;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+header ul li a{
+    color:aliceblue;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    padding: 6px 15px;
+}
+header ul a:hover,
+header ul a.active{
+    background-color: rgb(180, 255, 251);
+    color:black;
+}
+#topbar{
+    background-image: url("PNGS/TopBar.png");
+    background-size: cover;
+    height: 5vh;
+    margin: 0px;
+}

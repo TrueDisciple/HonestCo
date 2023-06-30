@@ -46,6 +46,11 @@ header ul a.active{
     background-color: rgb(180, 255, 251);
     color:black;
 }
+p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 5%;
+}
 #topbar{
     background-image: url("PNGS/TopBar.png");
     background-size: cover;
@@ -64,6 +69,7 @@ header ul a.active{
     height: 100%;
     background: linear-gradient(.25turn, rgba(255,255,255,0), aliceblue 50px,aliceblue 94%, rgba(255,255,255,0));
 }
+/*This whole section is dedicated to the block for blog cards and the ability to track interesting things to me or share things I have learned!*/
 #--blog-holder{
     display: flex;
     justify-content: center;
@@ -83,13 +89,13 @@ header ul a.active{
     width: 100%;
     height: 100px;
 }
-
 .--img-div img{
     width: 100%;
     height: 100%;
     object-fit:cover;
     object-position: center;
 }
+
 .--blog-title h1{
     margin: 0px;
     text-emphasis: none;
@@ -98,10 +104,9 @@ header ul a.active{
     text-align: center;
     background-color: rgb(255, 255, 255);
 }
-
+.--date-posted p{
+    color: rgb(199, 174, 12);
+}
 .--blog-text p{
-    font-size: 16px;
     color: rgb(255, 255, 255);
-    text-align: center;
-    margin-bottom: 5%;
 }

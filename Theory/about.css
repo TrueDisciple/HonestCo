@@ -95,7 +95,6 @@ p{
     object-fit:cover;
     object-position: center;
 }
-
 .--blog-title h1{
     margin: 0px;
     text-emphasis: none;
@@ -108,5 +107,16 @@ p{
     color: rgb(199, 174, 12);
 }
 .--blog-text p{
+    color: rgb(255, 255, 255);
+}
+.--blog-link a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: rgb(199, 174, 12);
+}
+
+.--blog-link a:hover{
     color: rgb(255, 255, 255);
 }

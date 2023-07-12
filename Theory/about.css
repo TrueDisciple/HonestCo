@@ -84,6 +84,8 @@ p{
     margin: 1%;
     background-color: rgb(11, 16, 145);
     border-radius: 20%;
+    min-height: 350px;
+    max-height: 350px;
 }
 .--img-div{
     width: 100%;
